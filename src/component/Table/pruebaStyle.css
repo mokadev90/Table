@@ -1,0 +1,21 @@
+.parentTbl table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: 0;
+  width: 690px;
+}
+.childTbl table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: 1px solid #d7d7d7;
+  width: 665px;
+}
+.childTbl th,
+.childTbl td {
+  border: 1px solid #d7d7d7;
+}
+.scrollData {
+  width: 690;
+  height: 150px;
+  overflow-x: hidden;
+}
